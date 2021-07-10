@@ -71,6 +71,11 @@
    
 }
 
+img{
+    width: 48px;
+    height: 48px;
+}
+
 
 .buttons #new-quote{
     width: 150px;
@@ -84,3 +89,33 @@
 .buttons #new-quote:hover{
     box-shadow:0 5px 10px 0 rgba(0,0,0,0.2);
 }
+
+@media only screen and (max-width: 500px) {
+    .card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .content{
+        align-items:center;
+    }
+    .content #text{
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    .content #author{
+        font-size:0.8em;
+    }
+    .buttons{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    img{
+        margin-top: 2em;
+        width: 36px;
+        height:36px;
+    }
+  }
