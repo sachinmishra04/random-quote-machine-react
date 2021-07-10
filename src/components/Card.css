@@ -60,6 +60,7 @@
 .content #author{
     font-family: "Open Sans",sans-serif;
     font-size: 1.3em;
+    opacity: 60%;
    
     
 }
@@ -91,11 +92,18 @@ img{
 }
 
 @media only screen and (max-width: 500px) {
+    #quote-box{
+      margin:20px;
+      padding: 12px;
+      height:500px ;
+     
+    }
     .card {
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
+      padding: 20px;
     }
     .content{
         align-items:center;
