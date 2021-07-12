@@ -29,7 +29,7 @@ const Card2 = (props) => {
   }
 
   return (
-    <div className="box">
+    <div className="box model">
       <div id="quote-box" className="ui card-css cards">
         <div className=" ui raised card">
           <div className="content">
