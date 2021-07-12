@@ -64,7 +64,7 @@ const Card2 = (props) => {
               className={`${props.color} ui inverted button`}
               style={{ backgroundColor: props.color }}
             >
-              Next Quote
+              New Quote
             </button>
           </div>
         </div>
